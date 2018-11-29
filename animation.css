@@ -1,0 +1,119 @@
+.lion{
+	animation: spinAnimal 1500ms linear infinite alternate;
+}
+
+.rabbit{
+	animation: spinAnimal 1500ms linear infinite alternate;
+}
+
+.monkey{
+	animation: spinAnimal 1500ms linear infinite alternate;
+}
+
+.bear{
+	animation: spinAnimal 1500ms linear infinite alternate;
+}
+
+
+@keyframes spinAnimal{
+	from{
+		transform: rotate(-10deg);
+	}
+	to{
+		transform: rotate(10deg);
+	}
+}
+
+.dragonFly{
+	animation: slide 5s infinite;
+}
+
+@keyframes slide{
+	from{
+		margin-left: 0%;
+	}
+
+	to{
+		margin-left: 100%;
+	}
+}
+
+@keyframes spin{
+	from{
+		transform: rotate(-360deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin2{
+	from{
+		transform: rotate(360deg);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}
+
+
+.saw1,.timer{
+	animation: spin 6s linear infinite;
+}
+
+.saw2{
+	animation: spin2 6s linear infinite;
+}
+
+.forestRabbit1{
+	animation: spinForest 1000ms linear infinite alternate;
+}
+
+@keyframes spinForest{
+	from{
+		transform: rotate(-5deg);
+	}
+	to{
+		transform: rotate(5deg);
+	}
+}
+@keyframes spinForest2{
+	from{
+		transform: rotate(-5deg);
+	}
+	to{
+		transform: rotate(5deg);
+	}
+}
+
+.forestRabbit2{
+	animation: spinForest2 1000ms linear infinite alternate;
+}
+
+@keyframes slideMachine{
+	from{
+		margin-left: 20%;
+	}
+
+	to{
+		margin-left: 30%;
+	}
+}
+
+.left{
+	animation: slideMachine 900ms linear alternate infinite;
+}
+
+.right{
+	animation: slideMachine2 900ms linear alternate infinite;
+}
+
+@keyframes slideMachine2{
+	from{
+		margin-left: 62%;
+	}
+
+	to{
+		margin-left: 55%;
+	}
+}
